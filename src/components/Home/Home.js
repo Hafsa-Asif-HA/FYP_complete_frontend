@@ -33,17 +33,17 @@ const Home = () => {
         </div>
         <div className="container d-flex justify-content-center mt-5">
           <div className="icon-box me-4 ">
-            <FontAwesomeIcon icon={faHeartbeat} className="icon" />
+            <FontAwesomeIcon icon={faHeartbeat} className="icon" size="3x" />
             <h4>Healthcare</h4>
             <p>Providing top-notch healthcare services.</p>
           </div>
           <div className="icon-box me-4">
-            <FontAwesomeIcon icon={faShieldAlt} className="icon" />
+            <FontAwesomeIcon icon={faShieldAlt} className="icon" size="3x"/>
             <h4>Security</h4>
             <p>Highly secure and encrypted medical records.</p>
           </div>
           <div className="icon-box">
-            <FontAwesomeIcon icon={faLock} className="icon" />
+            <FontAwesomeIcon icon={faLock} className="icon" size="3x"/>
             <h4>Privacy</h4>
             <p>Ensuring patient data privacy and confidentiality.</p>
           </div>
